@@ -1,0 +1,11 @@
+{
+	"name": "AiG Checker",
+	"short_name": "AiG Checker",
+	"description": "",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "portrait",
+	"background_color": "#ffffff",
+	"icons": [],
+	"screenshots": []
+}
