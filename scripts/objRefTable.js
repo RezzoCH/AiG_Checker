@@ -20,6 +20,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Acts.SetVisible,
 		C3.Plugins.Sprite.Acts.SetAnimFrame,
 		C3.Plugins.Flowchart.Acts.GotoAnyFlowchartNode,
+		C3.Plugins.Text.Acts.SetVisible,
 		C3.Plugins.Flowchart.Cnds.OnTaggedNodeChange
 	];
 };
@@ -47,7 +48,12 @@ self.C3_JsPropNameTable = [
 	{spr_Thumb: 0},
 	{spr_Siren: 0},
 	{spr_BackInvisible: 0},
-	{spr_RestInvisible: 0}
+	{spr_RestInvisible: 0},
+	{spr_InfoIconClose: 0},
+	{"9ptc_InfoBackgroundWhite": 0},
+	{"9ptc_InfoBackgroundShadow": 0},
+	{txt_InfoNote: 0},
+	{spr_InfoIconOpen: 0}
 ];
 
 self.InstanceType = {
@@ -74,5 +80,10 @@ self.InstanceType = {
 	spr_Thumb: class extends self.ISpriteInstance {},
 	spr_Siren: class extends self.ISpriteInstance {},
 	spr_BackInvisible: class extends self.ISpriteInstance {},
-	spr_RestInvisible: class extends self.ISpriteInstance {}
+	spr_RestInvisible: class extends self.ISpriteInstance {},
+	spr_InfoIconClose: class extends self.ISpriteInstance {},
+	_9ptc_InfoBackgroundWhite: class extends self.I9PatchInstance {},
+	_9ptc_InfoBackgroundShadow: class extends self.I9PatchInstance {},
+	txt_InfoNote: class extends self.ITextInstance {},
+	spr_InfoIconOpen: class extends self.ISpriteInstance {}
 }
